@@ -1,0 +1,1 @@
+// Store head in temp pointer of same datatype

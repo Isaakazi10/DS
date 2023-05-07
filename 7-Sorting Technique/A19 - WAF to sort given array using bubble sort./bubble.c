@@ -1,3 +1,10 @@
+/*
+Name        : ISAA KAZI
+Date        : 3/05/2023
+Description : A19 - WAF to sort given array using bubble sort.
+Sample I/O  :
+Sample O/P  :
+*/
 #include "main.h"
 
 // Defination of a function.

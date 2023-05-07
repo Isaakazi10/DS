@@ -1,3 +1,10 @@
+/*
+Name        : ISAA KAZI
+Date        : 7/05/2023
+Description : A20 - WAF to sort given array using insertion sort
+Sample I/O  :
+Sample O/P  :
+*/
 #include "main.h"
 
 /* Main Function */
@@ -12,22 +19,21 @@ int main()
 	/* Declaring the array with size */
 	data_t arr[limit];
 
-		
 	printf("Enter the array elements\n");
 	for (i = 0; i < limit; i++)
 	{
-	    /* Scanning the array elements */
+		/* Scanning the array elements */
 		scanf("%d", &arr[i]);
 	}
-		
+
 	/* Calling the function to bubble sort */
 	insertion(arr, limit);
-	
+
 	printf("Sorted array is : ");
 	for (i = 0; i < limit; i++)
 	{
-	    printf("%d ", arr[i]);
+		printf("%d ", arr[i]);
 	}
-		
+
 	return 0;
 }

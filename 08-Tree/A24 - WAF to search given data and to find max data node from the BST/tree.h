@@ -14,14 +14,16 @@ typedef struct node
 	struct node *left;
 	int data;
 	struct node *right;
-}Tree_t;
+} Tree_t;
 
 int insert_into_BST(Tree_t **root, int data);
 int inorder(Tree_t *);
 int postorder(Tree_t *);
 int preorder(Tree_t *);
-int findmin(Tree_t * root);
-int findmax(Tree_t * root);
-int search_BST(Tree_t * root, int data);
+int findmin(Tree_t *root);
+int findmax(Tree_t *root);
+int search_BST(Tree_t *root, int data);
+
+Tree_t *create(int data);
 
 #endif

@@ -7,9 +7,8 @@
 #define SUCCESS 0
 #define FAILURE -1
 
-
 void swap(int *a, int *b);
-void merge(int *array, int narray, int *left, int nleft, int *right, int nright);
-int merge_sort(int *array, int narray);
+void merge(int *array, int size, int *LSA, int mid, int *RSA, int last);
+int merge_sort(int *array, int size);
 
 #endif

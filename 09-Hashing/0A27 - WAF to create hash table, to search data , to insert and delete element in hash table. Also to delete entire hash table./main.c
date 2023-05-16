@@ -1,3 +1,10 @@
+/*
+Name        : ISAA KAZI
+Date        : 9/05/2023
+Description : 0A27 - WAF to create hash table, to search data , to insert and delete element in hash table. Also to delete entire hash table.
+Sample I/O  :
+Sample O/P  :
+*/
 #include "hash.h"
 
 int main()

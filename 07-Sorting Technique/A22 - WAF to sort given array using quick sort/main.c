@@ -3,6 +3,7 @@
 /* Main Function */
 int main()
 {
+	// Initialization of variable used in this program
 	int i, limit, option;
 
 	/* Scanning the size */
@@ -12,22 +13,28 @@ int main()
 	/* Declaring the array with size */
 	int arr[limit];
 
-		
 	printf("Enter the array elements\n");
 	for (i = 0; i < limit; i++)
 	{
-	    /* Scanning the array elements */
+		/* Scanning the array elements */
 		scanf("%d", &arr[i]);
 	}
-		
+
 	/* Calling the function to bubble sort */
 	quick_sort(arr, 0, limit - 1);
-	
+
 	printf("Sorted array is : ");
 	for (i = 0; i < limit; i++)
 	{
-	    printf("%d ", arr[i]);
+		printf("%d ", arr[i]);
 	}
-		
+
 	return 0;
+}
+
+void swap(int *a, int *b)
+{
+	int t = *a;
+	*a = *b;
+	*b = t;
 }

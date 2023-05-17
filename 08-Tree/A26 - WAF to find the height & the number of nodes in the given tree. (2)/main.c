@@ -20,7 +20,7 @@ int main()
 		{
 			case 1:
 				/* Reading the data from the user */
-				printf("Enter the data to insert into the BST : ");
+				//printf("Enter the data to insert into the BST : ");
 				scanf("%d", &data);
 
 				/* Calling the function to insert the element */

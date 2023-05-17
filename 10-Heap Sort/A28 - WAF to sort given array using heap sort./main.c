@@ -1,3 +1,8 @@
+/*
+NAME          : Muhammad Murshid c
+DATE          : 17/05/2023
+DESRIPTION    : Sorting of array using heap sort
+*/
 #include "main.h"
 
 /* Main Function */
